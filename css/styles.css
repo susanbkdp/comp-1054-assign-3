@@ -1,0 +1,119 @@
+
+.noto-serif sinhala-font {
+    font-family: "Noto Serif Sinhala", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.hind-siliguri-light {
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+html {
+    scroll-behavior: smooth;
+    background-color: #f8f8f8;
+}
+.logo {
+    width: 20%;
+    height: auto;
+}
+
+/* header */
+header {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+nav menu {
+    list-style: none;
+    display: flex;
+}
+header nav menu li {
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 100%;
+    margin: 1em;
+}
+
+/* main */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flavor {
+    display: flex;
+    align-items: center;
+    margin: 2vh 0;
+}
+.flavor img {
+    max-width: 50%;
+    transition: transform 0.3s ease;
+}
+.flavor img:hover {
+    transform: scale(1.2);
+}
+.orange-flavor > div {
+    background: rgba(255, 176, 74, 0.8);
+}
+.strawberry-flavor > div {
+    background: rgba(236, 142, 190, 0.8);
+}
+.content p {
+    margin: 5%;
+    line-height: 2em;
+    font-size: 120%;
+    font-family: "Noto Serif Sinhala", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.content p:first-child {
+    font-size: 180%;
+    font-weight: 900;
+}
+.orange-flavor .content p,
+.orange-flavor .content li {
+    color: #54260c;
+}
+.strawberry-flavor .content p,
+.strawberry-flavor .content li {
+    color: #7d0250;
+}
+.orange-flavor .content li, 
+.strawberry-flavor .content li {
+    margin: 1em;
+    list-style-type: disc;
+    line-height: 2em;
+    font-size: 100%;
+    font-family: "Noto Serif Sinhala", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.content li {
+    margin-bottom: 1vw;
+}
+
+/* footer */
+footer {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+.footer-form {
+    display: flex;
+}
+.footer-form form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer-form form p {
+    margin-right: 1vw;
+}
+.footer-form input {
+    margin-bottom: 0;
+}
